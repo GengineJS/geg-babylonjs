@@ -4,12 +4,29 @@ Geg-Babylonjs是基于Geg.js开发的3D项目,项目基于[Babylonjs](https://gi
 
 ## 安装
 
+以微信小游戏平台说明
+
 ```
+# 克隆项目
+git clone https://github.com/GengineJS/geg-babylonjs.git
+
+# 进入项目目录
+cd geg
+
 ```
 
 ## 目录结构
 
 ```
+├── src                       # 源代码
+│   ├── gegbabylon            # babylonjs组件
+│   ├── libs                  # 用到的源码库
+│   ├── app.js                # 功能入口
+│   └── template.xml          # template层级文件
+│   
+├── game.js                   # 微信小游戏入口
+├── game.json                 # 小游戏相关配置
+└── project.config.json       # 工程相关配置
 ```
 
 ## 组件核心
