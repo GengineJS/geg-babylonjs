@@ -1,0 +1,41 @@
+<template>
+  <engine>
+    <scene>
+      <camera type="ArcRotateCamera"></camera>
+      <light></light>
+      <skybox></skybox>
+      <ui>
+        <!-- <scrollview2d>
+		      <text2d :top="-50" text="HELLOWORLD"></text2d>
+        </scrollview2d> -->
+		    <!-- <image2d src="https://cdn.tong3d.com/fj.jpg"></image2d> -->
+        <!-- <stackpanel2d>
+          <button2d @click="registerEve" text='注册'></button2d>
+          <button2d text='登录' :top='50'></button2d>
+          <checkbox2d @click="registerEve" :top="100"></checkbox2d>
+          <radio2d :top="120"></radio2d>
+          <slider2d :top="140"></slider2d>
+          <colorpicker2d :top="-150"></colorpicker2d> -->
+          <!-- <rectangle2d></rectangle2d>
+          <ellipse2d></ellipse2d> -->
+          <!-- <input2d></input2d> -->
+		    <!-- </stackpanel2d> -->
+        <!-- <selectionpanel2d>
+            <group2d type="Checkbox" name="Helo" :options="checkGroups"></group2d>
+        </selectionpanel2d> -->
+      </ui>
+      <group3d :position="{x:0,y:0,z:0}">
+        <mesh>
+          <material>
+            <texture src="https://cdn.tong3d.com/fj.jpg"></texture>
+          </material>
+          <animation property="rotation.y" :duration="5">
+            <key frame="0%" :value="0"></key>
+            <key frame="100%" :value="frameEnd"></key>
+          </animation>
+        </mesh>
+        <mesh type="Sphere" :position="sPosition"><physics :mass="10"></physics></mesh>
+      </group3d>
+    </scene>
+  </engine>
+</template>
