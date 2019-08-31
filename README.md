@@ -11,7 +11,7 @@ Geg-Babylonjs是基于Geg.js开发的3D项目,项目基于[Babylonjs](https://gi
 git clone https://github.com/GengineJS/geg-babylonjs.git
 
 # 进入项目目录
-cd geg
+cd geg-babylonjs
 
 ```
 
