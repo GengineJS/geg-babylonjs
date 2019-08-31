@@ -1,6 +1,6 @@
 # Geg-Babylonjs
 
-Geg-Babylonjs是基于[Geg.js](https://github.com/GengineJS/geg.git)开发的3D项目,项目基于[Babylonjs](https://github.com/BabylonJS/Babylon.js)引擎。
+Geg-Babylonjs是基于[Geg.js](https://github.com/GengineJS/geg.git)开发的3D项目,项目采用[Babylonjs](https://github.com/BabylonJS/Babylon.js)引擎。
 
 ## 安装
 
